@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color:#575757;
+
+}
+
+.logo img{
+    width: 150px;
+    
+}
+
+.common-btn{
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #1D4ED8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.hero-container{
+    background-image:linear-gradient(
+
+            to right,
+
+            rgba(0,0,0,0.8),
+
+            rgba(0,0,0,0.2)
+
+        ), url(./assets/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.hero-content{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content p{
+    font-size: 2rem;
+    text-align: center;
+    width: 900px;
+}
+
+.hero-container h1{
+    font-size:6rem;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.hero-content button{
+    margin-top: 400px;
+    padding: 20px 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
