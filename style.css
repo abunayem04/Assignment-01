@@ -87,6 +87,7 @@ nav ul a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 10px 8%;
 
 }
@@ -110,7 +111,8 @@ nav ul a{
 
 .card{
     border-radius:10px;
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(255, 255, 255);
+    outline:1px solid #E5E7EB;
 }
 
 .speakers-card{
@@ -155,20 +157,12 @@ nav ul a{
     margin-bottom: 30px;
 }
 
-/* .pricing-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 10px;
-
-} */
 
 .pricing-cards{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 40px;
+    flex-wrap: nowrap;
 }
 
 .regular-card{
@@ -186,6 +180,7 @@ nav ul a{
     border-top: 1px solid #E5E7EB;
     padding: 10px;
     margin: 10px;
+    white-space: nowrap;
 }
 
 .pro-card{
@@ -197,12 +192,20 @@ nav ul a{
     border: 1px solid #E5E7EB;
     display: flex;
     flex-direction: column;
+    transform: scale(1.08);
+
 }
 
-.pro-card div{
+.pro-card ul{
     border-top: 1px solid #E5E7EB;
     padding: 10px;
     margin: 10px;
+    
+}
+
+.pro-card li::marker{
+    color: #60A5FA;
+    font-size: 18px;
 }
 
 .pro-card h5{
@@ -220,6 +223,29 @@ nav ul a{
 
 .regular-card h2{
     font-size: 3rem;
+}
+
+.regular-card button{
+    background-color: white;
+    color: #1D4ED8;
+    border:2px solid #2563EB;
+    border-radius: 10px;
+    padding: 10px  20px;
+    margin-top:30px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pro-card button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
 }
 
 
