@@ -95,6 +95,8 @@ nav ul a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 8%;
+
 }
 
 .speakers h2{
@@ -114,7 +116,7 @@ nav ul a{
 }
 
 .card{
-    border-radius: 30px 10px;
+    border-radius:10px;
     background-color: rgb(247, 245, 245);
 }
 
@@ -123,6 +125,21 @@ nav ul a{
     grid-template-columns: repeat(2,1fr);
     margin: 0px 80px;
     gap: 20px;
-    border-radius: 30px;
+}
+
+.card h5{
+    margin: 10px;
+    color: #2563EB;
+}
+
+.card h3{
+    margin:10px;
+    color: #0D1B2A;
+
+}
+
+.card p{
+    margin: 10px;
+    color: #575757;
 }
 
