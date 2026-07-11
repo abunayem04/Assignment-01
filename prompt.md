@@ -10,12 +10,12 @@ The idea is to make visitors feel like they are becoming an official member of t
 
 The section should contain a clean registration form where users can enter details such as:
 
-* Full Name
-* Email Address
-* Country
-* Developer Role
-* Experience Level
-* Favorite Tech Stack
+- Full Name
+- Email Address
+- Country
+- Developer Role
+- Experience Level
+- Favorite Tech Stack
 
 Below the form there should be a primary CTA button:
 
@@ -27,15 +27,15 @@ Clicking the button should visually suggest navigation to a separate page named 
 
 The passport preview should **NOT display the user's personal information**. Instead, it should create the illusion that the passport belongs to them by displaying professional conference-related information such as:
 
-* Verified by DevConf 2026
-* Developer ID
-* Registration Status
-* Conference Access Level
-* Primary Track
-* Achievement Badge
-* Security Verification
-* QR Code Placeholder
-* Registration Serial Number
+- Verified by DevConf 2026
+- Developer ID
+- Registration Status
+- Conference Access Level
+- Primary Track
+- Achievement Badge
+- Security Verification
+- QR Code Placeholder
+- Registration Serial Number
 
 The passport should feel official, futuristic, trustworthy, elegant, and premium.
 
@@ -57,15 +57,15 @@ Use a premium minimal design.
 
 Primary colors:
 
-* White
-* Royal Purple
-* Lavender
+- White
+- Royal Purple
+- Lavender
 
 Accent colors:
 
-* Soft Purple Glow
-* Light Violet
-* Very subtle gradients
+- Soft Purple Glow
+- Light Violet
+- Very subtle gradients
 
 Avoid dark backgrounds.
 
@@ -87,17 +87,17 @@ Design the section as if it were built by an award-winning frontend developer.
 
 Include tasteful CSS-only interaction ideas such as:
 
-* Smooth hover transitions
-* Floating elements
-* Soft glow effects
-* Animated gradient borders
-* Subtle card lift
-* Button ripple-like hover illusion
-* Badge glow
-* Floating verification seal
-* Micro interactions
-* Layered depth
-* Premium motion suggestions
+- Smooth hover transitions
+- Floating elements
+- Soft glow effects
+- Animated gradient borders
+- Subtle card lift
+- Button ripple-like hover illusion
+- Badge glow
+- Floating verification seal
+- Micro interactions
+- Layered depth
+- Premium motion suggestions
 
 The animations should feel refined and professional, never distracting.
 
