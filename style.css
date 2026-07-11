@@ -178,7 +178,9 @@ nav ul li a:hover {
   gap: 40px;
   flex-wrap: nowrap;
   margin-bottom: 30px;
+
 }
+
 
 .regular-card {
   width: 350px;
@@ -188,7 +190,13 @@ nav ul li a:hover {
   background: white;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
 }
+
+.regular-card:hover{
+  transform: translateY(-15px);
+}
+
 
 .regular-card ul {
   border-top: 1px solid #e5e7eb;
@@ -208,6 +216,12 @@ nav ul li a:hover {
   flex-direction: column;
   transform: scale(1.08);
   white-space: nowrap;
+  transition: 0.5s;
+}
+
+.pro-card:hover{
+  transform: translateY(-15px);
+
 }
 
 .pro-card ul {
