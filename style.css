@@ -113,9 +113,8 @@ nav ul li a:hover {
 
 .speakers-card img {
   width: 100%;
- border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
-
 
 .card {
   border-radius: 10px;
@@ -124,7 +123,7 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-15px);
 }
 
@@ -133,10 +132,7 @@ nav ul li a:hover {
   grid-template-columns: repeat(2, 1fr);
   margin: 0px 80px;
   gap: 20px;
-  
 }
-
-
 
 .card h5 {
   margin: 10px;
@@ -178,9 +174,7 @@ nav ul li a:hover {
   gap: 40px;
   flex-wrap: nowrap;
   margin-bottom: 30px;
-
 }
-
 
 .regular-card {
   width: 350px;
@@ -193,10 +187,9 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-.regular-card:hover{
+.regular-card:hover {
   transform: translateY(-15px);
 }
-
 
 .regular-card ul {
   border-top: 1px solid #e5e7eb;
@@ -219,9 +212,8 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-.pro-card:hover{
+.pro-card:hover {
   transform: translateY(-15px);
-
 }
 
 .pro-card ul {
@@ -402,10 +394,6 @@ footer hr {
   z-index: 2;
 }
 
-/*=========================================
-            BACKGROUND ORBS
-=========================================*/
-
 .gradient-orb {
   position: absolute;
   border-radius: 50%;
@@ -440,10 +428,6 @@ footer hr {
   left: 35%;
   animation-delay: 6s;
 }
-
-/*=========================================
-            LEFT CONTENT
-=========================================*/
 
 .passport-content {
   position: relative;
@@ -500,10 +484,6 @@ footer hr {
 
   margin-bottom: 45px;
 }
-
-/*=========================================
-                FORM
-=========================================*/
 
 .passport-form {
   background: rgba(255, 255, 255, 0.82);
@@ -578,10 +558,6 @@ footer hr {
   box-shadow: 0 0 0 5px rgba(108, 76, 241, 0.12);
 }
 
-/*=========================================
-            GRID
-=========================================*/
-
 .form-grid {
   display: grid;
 
@@ -589,10 +565,6 @@ footer hr {
 
   gap: 22px;
 }
-
-/*=========================================
-            BUTTON
-=========================================*/
 
 .form-action {
   margin-top: 18px;
@@ -667,15 +639,7 @@ footer hr {
 
   font-size: 14px;
 }
-*
-
-
-
-/*=========================================
-        FLOATING VERIFIED SEAL
-=========================================*/
-
-.floating-seal {
+* .floating-seal {
   position: absolute;
 
   top: -20px;
@@ -705,10 +669,6 @@ footer hr {
   z-index: 5;
 }
 
-/*=========================================
-        PASSPORT CARD
-=========================================*/
-
 .passport-card {
   position: relative;
 
@@ -733,8 +693,6 @@ footer hr {
   overflow: hidden;
 }
 
-/* Animated Border */
-
 .developer-passport::before {
   content: "";
   position: absolute;
@@ -755,8 +713,6 @@ footer hr {
   mask-composite: exclude;
   -webkit-mask-composite: xor;
 }
-
-/* Decorative Glow */
 
 .passport-card::after {
   content: "";
@@ -780,17 +736,11 @@ footer hr {
   opacity: 0.65;
 }
 
-/* Hover */
-
 .passport-card:hover {
   transform: translateY(-10px) rotate(-1deg);
 
   box-shadow: 0 45px 90px rgba(108, 76, 241, 0.22);
 }
-
-/*=========================================
-            TOP
-=========================================*/
 
 .passport-top {
   display: flex;
@@ -826,10 +776,6 @@ footer hr {
   color: #22263a;
 }
 
-/*=========================================
-        VERIFIED CHIP
-=========================================*/
-
 .verified-chip {
   display: flex;
 
@@ -852,10 +798,6 @@ footer hr {
   border: 1px solid #c8f2da;
 }
 
-/*=========================================
-            DIVIDER
-=========================================*/
-
 .passport-divider {
   width: 100%;
 
@@ -865,10 +807,6 @@ footer hr {
 
   margin: 30px 0;
 }
-
-/*=========================================
-            DETAILS
-=========================================*/
 
 .passport-details {
   display: grid;
@@ -900,10 +838,6 @@ footer hr {
   font-weight: 700;
 }
 
-/*=========================================
-            BOTTOM
-=========================================*/
-
 .passport-bottom {
   margin-top: 35px;
 
@@ -929,10 +863,6 @@ footer hr {
 
   color: #22263a;
 }
-
-/*=========================================
-            QR BOX
-=========================================*/
 
 .qr-placeholder {
   width: 120px;
@@ -964,10 +894,6 @@ footer hr {
   transform: scale(1.05);
 }
 
-/*=========================================
-        SMALL GLOW DOT
-=========================================*/
-
 .passport-card .glow-dot {
   position: absolute;
 
@@ -981,10 +907,6 @@ footer hr {
 
   box-shadow: 0 0 20px #6c4cf1;
 }
-
-/*=========================================
-            ANIMATIONS
-=========================================*/
 
 @keyframes floatOrb {
   0% {
@@ -1050,10 +972,6 @@ footer hr {
   animation: glowPulse 3s infinite;
 }
 
-/*=========================================
-        EXTRA HOVER EFFECTS
-=========================================*/
-
 .detail-item {
   transition: 0.35s;
 }
@@ -1096,10 +1014,6 @@ footer hr {
 .qr-placeholder {
   cursor: pointer;
 }
-
-/*=========================================
-        RESPONSIVE
-=========================================*/
 
 @media (max-width: 1100px) {
   .passport-container {
@@ -1197,8 +1111,6 @@ footer hr {
   }
 }
 
-/* Passport Fix */
-
 .passport-form {
   display: flex !important;
   flex-direction: column !important;
@@ -1240,10 +1152,6 @@ footer hr {
   width: 100%;
 }
 
-/*=========================================
-        PASSPORT PAGE
-=========================================*/
-
 .passport-page {
   position: relative;
   min-height: 100vh;
@@ -1251,10 +1159,6 @@ footer hr {
   overflow: hidden;
   background: linear-gradient(180deg, #ffffff, #f8f5ff);
 }
-
-/*=========================================
-        BACKGROUND ORBS
-=========================================*/
 
 .passport-bg {
   position: absolute;
@@ -1290,10 +1194,6 @@ footer hr {
   animation-delay: 6s;
 }
 
-/*=========================================
-        WRAPPER
-=========================================*/
-
 .passport-wrapper {
   max-width: 950px;
   margin: auto;
@@ -1301,10 +1201,6 @@ footer hr {
   z-index: 2;
   text-align: center;
 }
-
-/*=========================================
-        TOP BADGE
-=========================================*/
 
 .page-badge {
   display: inline-flex;
@@ -1327,10 +1223,6 @@ footer hr {
 
   margin-bottom: 30px;
 }
-
-/*=========================================
-        HEADING
-=========================================*/
 
 .passport-wrapper h1 {
   font-size: 58px;
@@ -1358,10 +1250,6 @@ footer hr {
   margin-bottom: 70px;
 }
 
-/*=========================================
-        PASSPORT CARD
-=========================================*/
-
 .developer-passport {
   position: relative;
 
@@ -1379,8 +1267,6 @@ footer hr {
 
   overflow: hidden;
 }
-
-/* Animated Border */
 
 .developer-passport::before {
   content: "";
@@ -1404,8 +1290,6 @@ footer hr {
   mask-composite: exclude;
 }
 
-/* Glow */
-
 .developer-passport::after {
   content: "";
 
@@ -1427,10 +1311,6 @@ footer hr {
 
   opacity: 0.7;
 }
-
-/*=========================================
-        HEADER
-=========================================*/
 
 .passport-header {
   display: flex;
@@ -1480,10 +1360,6 @@ footer hr {
   border: 1px solid #c8efd9;
 }
 
-/*=========================================
-        DIVIDER
-=========================================*/
-
 .passport-line {
   width: 100%;
 
@@ -1494,10 +1370,6 @@ footer hr {
   margin: 35px 0;
 }
 
-/*=========================================
-        GRID
-=========================================*/
-
 .passport-grid {
   display: grid;
 
@@ -1505,10 +1377,6 @@ footer hr {
 
   gap: 24px;
 }
-
-/*=========================================
-        INFO
-=========================================*/
 
 .passport-info {
   display: flex;
@@ -1531,10 +1399,6 @@ footer hr {
 
   font-weight: 700;
 }
-
-/*=========================================
-        PASSPORT FOOTER
-=========================================*/
 
 .passport-footer {
   margin-top: 45px;
@@ -1594,10 +1458,6 @@ footer hr {
   line-height: 1.8;
 }
 
-/*=========================================
-        ACTION BUTTONS
-=========================================*/
-
 .passport-actions {
   margin-top: 45px;
 
@@ -1649,10 +1509,6 @@ footer hr {
   transform: translateY(-5px);
 }
 
-/*=========================================
-        CARD HOVER
-=========================================*/
-
 .developer-passport {
   transition: 0.4s;
 }
@@ -1674,10 +1530,6 @@ footer hr {
 .passport-info:hover strong {
   color: #6c4cf1;
 }
-
-/*=========================================
-        ANIMATIONS
-=========================================*/
 
 @keyframes passportFloat {
   0% {
@@ -1710,10 +1562,6 @@ footer hr {
     transform: translateY(0);
   }
 }
-
-/*=========================================
-        RESPONSIVE
-=========================================*/
 
 @media (max-width: 768px) {
   .passport-page {
