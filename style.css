@@ -40,6 +40,7 @@ nav ul li a:hover {
 .common-btn:hover {
   background-color: #1e40af;
   transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .common-btn {
@@ -51,6 +52,7 @@ nav ul li a:hover {
   outline: none;
   border: none;
   cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .hero-container {
@@ -111,13 +113,19 @@ nav ul li a:hover {
 
 .speakers-card img {
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+ border-radius: 10px 10px 0 0;
 }
+
 
 .card {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   outline: 1px solid #e5e7eb;
+  transition: 0.5s;
+}
+
+.card:hover{
+  transform: translateY(-15px);
 }
 
 .speakers-card {
@@ -125,7 +133,10 @@ nav ul li a:hover {
   grid-template-columns: repeat(2, 1fr);
   margin: 0px 80px;
   gap: 20px;
+  
 }
+
+
 
 .card h5 {
   margin: 10px;
@@ -234,12 +245,19 @@ nav ul li a:hover {
   margin-top: 30px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .regular-card button {
   background-color: white;
   color: #1d4ed8;
   border: 2px solid #2563eb;
+}
+
+.regular-card button:hover,
+.pro-card button:hover {
+  color: white;
+  transform: translateY(-12px);
 }
 
 .pro-card button {
@@ -703,32 +721,26 @@ footer hr {
 
 /* Animated Border */
 
-.developer-passport::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    padding: 2px;
-    border-radius: inherit;
+.developer-passport::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: inherit;
 
-    background: linear-gradient(
-        135deg,
-        #6C4CF1,
-        #B89BFF,
-        #6C4CF1
-    );
+  background: linear-gradient(135deg, #6c4cf1, #b89bff, #6c4cf1);
 
-    mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
 
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
 
-    mask-composite: exclude;
-    -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
 }
-
 
 /* Decorative Glow */
 
